@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sun {
+  position: absolute;
+  top: 0;
+  background-color: #FDB813;
+  height: 100px;
+  width: 200px;
+  right: 0;
+  border-bottom-left-radius: 50px;
+}
+
+.header {
+  background-color: black;
+  height: 7rem;
+  width: 100%;
+  color: white;
+  display: flex;
+}
+
+.header-box {
+  border: 1px solid white;
+  width: 20rem;
+  margin: auto;
+  padding: .5rem;
+  display: flex;
+}
+
+.header-nw {
+  flex: 1;
+  border-right: 1px solid white;
+}
+
+.header-name {
+  flex-grow: 1;
+}
