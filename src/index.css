@@ -22,37 +22,30 @@ code {
   border-bottom-left-radius: 50px;
 }
 
-.header {
-  background-color: black;
-  height: 7rem;
-  width: 100%;
-  color: white;
-  display: flex;
-}
-
-.header-box {
+.info-box {
   border: 1px solid white;
   width: 20rem;
-  margin: auto;
+  margin: 50px;
   padding: .5rem;
   display: flex;
 }
 
-.header-nw {
+.info-nw {
   flex: 1;
 }
 
-.header-box:hover .header-nw {
+.info-box:hover .info-nw {
   transform: rotate(360deg);
   transition-duration:1s;
 }
 
-.header-name {
+.info-name {
   flex-grow: 1;
   border-left: 1px solid white;
 }
 
-.body {
-  height: 100%;
-  background-color: #f1f1f1;
+.info-picture {
+  border-radius: 500px;
+  margin-top: 20px;
+  height: 350px;
 }

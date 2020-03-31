@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
-import Sun from './components/Sun';
-import Header from './components/Header';
-import Body from './components/Body';
+import Info from './components/Info';
 
 function App() {
   return (
     <div className="App">
-    <Header />
-    <Body />
+    <Info />
     </div>
   );
 }
