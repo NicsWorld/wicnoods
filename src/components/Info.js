@@ -10,7 +10,7 @@ function Info() {
         <p className="info-nw">NW</p>
         <p className="info-name">Nic Woods</p>
       </div>
-      <a target="_blank" href="https://github.com/NicsWorld"><img src={github2} alt="oops :/"/></a>
+      <a  rel="noopener noreferrer" target="_blank" href="https://github.com/NicsWorld"><img src={github2} alt="oops :/"/></a>
     </div>
   );
 }
