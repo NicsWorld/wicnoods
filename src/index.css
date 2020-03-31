@@ -40,9 +40,19 @@ code {
 
 .header-nw {
   flex: 1;
-  border-right: 1px solid white;
+}
+
+.header-box:hover .header-nw {
+  transform: rotate(360deg);
+  transition-duration:1s;
 }
 
 .header-name {
   flex-grow: 1;
+  border-left: 1px solid white;
+}
+
+.body {
+  height: 100%;
+  background-color: #f1f1f1;
 }
